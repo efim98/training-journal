@@ -5,8 +5,14 @@ import com.example.trainingdiary.repositories.ExerciseRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import javax.persistence.criteria.CriteriaBuilder;
+import java.util.List;
 
 @Service
-public interface ExerciseService  extends BaseService<Exercise, Integer>{
+public class ExerciseService {
+    @Autowired
+    private ExerciseRepository repository;
+
+    public List<Exercise> getAllExercises(){
+        return repository.findAll();
+    }
 }
