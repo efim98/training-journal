@@ -17,7 +17,7 @@ import java.util.Properties;
 
 @Configuration
 @EnableTransactionManagement
-@EnableJpaRepositories(basePackages = {"com.example.trainingdiary.repositories"})
+@EnableJpaRepositories(basePackages = {"com.example.trainingjournal.repositories"})
 public class DbConfig {
 
     @Autowired
@@ -38,7 +38,7 @@ public class DbConfig {
     public LocalContainerEntityManagerFactoryBean entityManagerFactory() {
         final LocalContainerEntityManagerFactoryBean em = new LocalContainerEntityManagerFactoryBean();
         em.setDataSource(dataSource());
-        em.setPackagesToScan(new String[] {"com.example.trainingdiary"});
+        em.setPackagesToScan(new String[] {"com.example.trainingjournal"});
         em.setJpaVendorAdapter(new HibernateJpaVendorAdapter());
         em.setJpaProperties(additionalProperties());
         return em;

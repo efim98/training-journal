@@ -2,5 +2,3 @@ spring:
   datasource:
     driverClassName: org.sqlite.JDBC
     url: jdbc:sqlite:trainingdb.db?cache=shared
-  hibernate:
-    dialect: com.example.trainingdiary.SQLiteDialect
