@@ -1,6 +1,6 @@
-package com.example.trainingdiary.repositories;
+package com.example.trainingjournal.repositories;
 
-import com.example.trainingdiary.entities.Exercise;
+import com.example.trainingjournal.entities.Exercise;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

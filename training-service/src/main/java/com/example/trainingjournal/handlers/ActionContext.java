@@ -1,4 +1,4 @@
-package com.example.trainingdiary.handlers;
+package com.example.trainingjournal.handlers;
 
 public interface ActionContext <TResult>{
     String getError();

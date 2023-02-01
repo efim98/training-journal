@@ -1,6 +1,6 @@
-package com.example.trainingdiary.handlers;
+package com.example.trainingjournal.handlers;
 
-import com.example.trainingdiary.services.ExerciseService;
+import com.example.trainingjournal.services.ExerciseService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

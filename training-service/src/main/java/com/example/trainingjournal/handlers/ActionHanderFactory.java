@@ -1,4 +1,4 @@
-package com.example.trainingdiary.handlers;
+package com.example.trainingjournal.handlers;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.ApplicationContext;

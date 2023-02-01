@@ -1,6 +1,5 @@
-package com.example.trainingdiary.entities;
+package com.example.trainingjournal.entities;
 
-import com.fasterxml.jackson.annotation.JsonBackReference;
 import jakarta.persistence.*;
 
 import java.io.Serializable;

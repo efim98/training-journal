@@ -1,7 +1,7 @@
-package com.example.trainingdiary;
+package com.example.trainingjournal;
 
-import com.example.trainingdiary.entities.TrainingDay;
-import com.example.trainingdiary.services.TrainingDayService;
+import com.example.trainingjournal.entities.TrainingDay;
+import com.example.trainingjournal.services.TrainingDayService;
 import jakarta.transaction.Transactional;
 import org.junit.Assert;
 import org.junit.Test;

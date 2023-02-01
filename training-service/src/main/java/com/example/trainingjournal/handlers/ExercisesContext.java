@@ -1,6 +1,6 @@
-package com.example.trainingdiary.handlers;
+package com.example.trainingjournal.handlers;
 
-import com.example.trainingdiary.entities.Exercise;
+import com.example.trainingjournal.entities.Exercise;
 
 import java.util.List;
 

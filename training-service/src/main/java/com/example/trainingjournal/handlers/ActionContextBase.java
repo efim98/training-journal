@@ -1,4 +1,4 @@
-package com.example.trainingdiary.handlers;
+package com.example.trainingjournal.handlers;
 
 public abstract class ActionContextBase<T> implements ActionContext<T> {
     private String error="";

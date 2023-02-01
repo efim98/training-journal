@@ -1,7 +1,7 @@
-package com.example.trainingdiary.services;
+package com.example.trainingjournal.services;
 
-import com.example.trainingdiary.entities.TrainingDay;
-import com.example.trainingdiary.repositories.TrainingDayRepository;
+import com.example.trainingjournal.entities.TrainingDay;
+import com.example.trainingjournal.repositories.TrainingDayRepository;
 import jakarta.transaction.Transactional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

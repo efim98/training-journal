@@ -1,8 +1,8 @@
-package com.example.trainingdiary.controllers;
+package com.example.trainingjournal.controllers;
 
-import com.example.trainingdiary.handlers.ActionContext;
-import com.example.trainingdiary.handlers.ActionHanderFactory;
-import com.example.trainingdiary.handlers.ActionHandler;
+import com.example.trainingjournal.handlers.ActionContext;
+import com.example.trainingjournal.handlers.ActionHanderFactory;
+import com.example.trainingjournal.handlers.ActionHandler;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

@@ -1,4 +1,4 @@
-package com.example.trainingdiary.entities;
+package com.example.trainingjournal.entities;
 
 import jakarta.persistence.*;
 

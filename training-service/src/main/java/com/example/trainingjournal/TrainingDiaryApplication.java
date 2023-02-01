@@ -1,4 +1,4 @@
-package com.example.trainingdiary;
+package com.example.trainingjournal;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

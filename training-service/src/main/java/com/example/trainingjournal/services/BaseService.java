@@ -1,4 +1,4 @@
-package com.example.trainingdiary.services;
+package com.example.trainingjournal.services;
 
 import java.util.List;
 import java.util.Optional;
