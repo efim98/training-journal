@@ -26,11 +26,9 @@ public class DbConfig {
     @Bean
     public DataSource dataSource() {
         final DriverManagerDataSource dataSource = new DriverManagerDataSource();
-        dataSource.setDriverClassName("org.h2.Driver");
-        //dataSource.setUrl("jdbc:h2:file:C:/Users/vladi/test;DB_CLOSE_DELAY=-1");
-        dataSource.setUrl("jdbc:h2:~/test;AUTO_SERVER=TRUE");
+        dataSource.setDriverClassName(env.getProperty("spring.datasource.driverClassName"));
+        dataSource.setUrl(env.getProperty("spring.datasource.url"));
         dataSource.setUsername("sa");
-        //dataSource.setPassword("");
         return dataSource;
     }
 
